@@ -5,7 +5,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.event.ActionEvent;
-
+import javafx.application.Platform;
 public class HelloController {
 
     // text fields
@@ -77,5 +77,9 @@ public class HelloController {
         textField2.setText("");
         textField3.setText("");
         middleLabel.setText("Clearing your numbers!");
+    }
+    @FXML
+    protected void exitStuff() {
+            Platform.exit();
     }
 }
