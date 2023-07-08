@@ -18,13 +18,16 @@
                   <Image url="@../../../mando.jpeg" />
                </image>
             </ImageView>
-            <Label fx:id="middleLabel" layoutX="272.0" layoutY="265.0" textFill="WHITE" />
-            <Button fx:id="addButon" layoutX="74.0" layoutY="200.0" mnemonicParsing="false" text="Add" onAction="#addStuff"/>
-            <Button fx:id="divideButton" layoutX="485.0" layoutY="200.0" mnemonicParsing="false" text="Divide" onAction="#divideStuff"/>
-            <Button fx:id="exitButton" layoutX="349.0" layoutY="313.0" mnemonicParsing="false" text="Exit" onAction="#exitStuff"/>
-            <Button fx:id="clearButton" layoutX="200.0" layoutY="313.0" mnemonicParsing="false" text="Clear" onAction="#clearStuff"/>
-            <Button fx:id="multiplyButton" layoutX="349.0" layoutY="200.0" mnemonicParsing="false" text="Multiply" onAction="#multiplyStuff"/>
-            <Button fx:id="subtractButton" layoutX="200.0" layoutY="200.0" mnemonicParsing="false" text="Subtract" onAction="#subtractStuff"/>
+            <Label fx:id="middleLabel" alignment="CENTER" layoutX="130.0" layoutY="264.0" prefHeight="27.0" prefWidth="340.0" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Button fx:id="addButon" layoutX="74.0" layoutY="200.0" mnemonicParsing="false" onAction="#addStuff" text="Add" />
+            <Button fx:id="divideButton" layoutX="485.0" layoutY="200.0" mnemonicParsing="false" onAction="#divideStuff" text="Divide" />
+            <Button fx:id="exitButton" layoutX="349.0" layoutY="313.0" mnemonicParsing="false" onAction="#exitStuff" text="Exit" />
+            <Button fx:id="clearButton" layoutX="200.0" layoutY="313.0" mnemonicParsing="false" onAction="#clearStuff" text="Clear" />
+            <Button fx:id="multiplyButton" layoutX="349.0" layoutY="200.0" mnemonicParsing="false" onAction="#multiplyStuff" text="Multiply" />
+            <Button fx:id="subtractButton" layoutX="200.0" layoutY="200.0" mnemonicParsing="false" onAction="#subtractStuff" text="Subtract" />
             <TextField fx:id="textField3" layoutX="437.0" layoutY="147.0" />
             <TextField fx:id="textField2" layoutX="226.0" layoutY="147.0" />
             <TextField fx:id="textField1" layoutX="14.0" layoutY="147.0" />
